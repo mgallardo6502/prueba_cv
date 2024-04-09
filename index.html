@@ -31,7 +31,7 @@
   </head>
   <body>
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg bg-secondary">
+    <nav class="navbar navbar-expand-lg bg-secondary id=home">
       <div class="container-fluid">
         <button
           class="navbar-toggler"
@@ -46,7 +46,9 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav mx-auto">
-            <a class="nav-link open-sans-bold-nav" href="#">Portafolio</a>
+            <a class="nav-link open-sans-bold-nav" href="#portafolio"
+              >Portafolio</a
+            >
             <a class="nav-link open-sans-bold-nav" href="#">Educación</a>
             <a class="nav-link open-sans-bold-nav" href="#">Experiencia</a>
           </div>
@@ -58,60 +60,88 @@
       <div class="py-5">
         <h1 class="display-5 fw-bold text-white">Marcelo Gallardo</h1>
         <div class="col-lg-6 mx-auto">
-          <p class="fs-5 mb-4">Desarrollador full-stack </p>
+          <p class="fs-5 mb-4">Desarrollador full-stack</p>
           <p><i class="fa-solid fa-code fa-5x"></i></p>
         </div>
       </div>
     </div>
     <!-- Portafolio -->
-    <div class="container text-center mt-4">
-      <div class="row">
-        <div class="col-lg-4">
-          <div class="card mx-auto" style="max-width: 540px;">
-            <div class="row g-0">
-              <div class="col-lg-4">
-                <img src="..." class="img-fluid rounded-start" alt="...">
-              </div>
-              <div class="col-lg-8">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-                </div>
-              </div>
-            </div>
+    <div class="container text-center">
+      <div class="row d-flex justify-content-evenly">
+        <!-- Titulo -->
+        <h2 class="col-lg-12 mt-2" id="portafolio">Portafolio</h2>
+        <!-- Card1 -->
+        <div class="card col-lg-2 my-4 mx-auto pt-2 bg-dark">
+          <a
+            href="https://mgallardo6502.github.io/desafio_html/"
+            target="_blank"
+            ><img
+              src="./assets/img/portafolio_html.jpg"
+              class="card-img-top"
+              alt="..."
+          /></a>
+          <div class="card-body">
+            <hr class="text-light" />
+            <h5 class="card-title text-light">Introducción a HTML</h5>
+            <hr class="text-light" />
+            <p class="card-text text-light">
+              Curriculum Vitae creado con etiquetas HTML.
+            </p>
           </div>
         </div>
-        <div class="col-lg-4">
-          <div class="card mx-auto" style="max-width: 540px;">
-            <div class="row g-0">
-              <div class="col-lg-4">
-                <img src="..." class="img-fluid rounded-start" alt="...">
-              </div>
-              <div class="col-lg-8">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-                </div>
-              </div>
-            </div>
+        <!-- Card2-->
+        <div class="card col-lg-2 my-4 mx-auto pt-2 bg-dark">
+          <a href="https://mgallardo6502.github.io/desafio_css/" target="_blank"
+            ><img
+              src="./assets/img/portafolio_css.jpg"
+              class="card-img-top"
+              alt="..."
+          /></a>
+          <div class="card-body">
+            <hr class="text-light" />
+            <h5 class="card-title text-light">Introducción a CSS</h5>
+            <hr class="text-light" />
+            <p class="card-text text-light">
+              Catalogo de productos creado con HTML y CSS.
+            </p>
           </div>
         </div>
-        <div class="col-lg-4">
-          <div class="card mx-auto" style="max-width: 540px;">
-            <div class="row g-0">
-              <div class="col-lg-4">
-                <img src="..." class="img-fluid rounded-start" alt="...">
-              </div>
-              <div class="col-lg-8">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-                </div>
-              </div>
-            </div>
+        <!-- Card3 -->
+        <div class="card col-lg-2 my-4 mx-auto pt-2 bg-dark">
+          <a
+            href="https://mgallardo6502.github.io/desafio_flex/"
+            target="_blank"
+            ><img
+              src="./assets/img/portafolio_flex.jpg"
+              class="card-img-top"
+              alt="..."
+          /></a>
+          <div class="card-body">
+            <hr class="text-light" />
+            <h5 class="card-title text-light">Alineando contenido con Flex</h5>
+            <hr class="text-light" />
+            <p class="card-text text-light">
+              Se utiliza display flex para crear página en base a maqueta.
+            </p>
+          </div>
+        </div>
+        <!-- Card4 -->
+        <div class="card col-lg-2 my-4 mx-auto pt-2 bg-dark">
+          <a
+            href="https://mgallardo6502.github.io/desafio_bootstrap/"
+            target="_blank"
+            ><img
+              src="./assets/img/portafolio_bootstrap.jpg"
+              class="card-img-top"
+              alt="..."
+          /></a>
+          <div class="card-body">
+            <hr class="text-light" />
+            <h5 class="card-title text-light">Bootstrap</h5>
+            <hr class="text-light" />
+            <p class="card-text text-light">
+              Se utiliza bootstrap para crear página en base a maqueta.
+            </p>
           </div>
         </div>
       </div>
