@@ -1,4 +1,4 @@
-/* open sans */
+  /* open sans */
 .open-sans-bold-nav {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
@@ -7,4 +7,14 @@
   font-variation-settings: "wdth" 100;
   font-size: 1.3em;
   color: white;
+}
+
+/* Titulo educación */
+
+.titulo_educacion {
+  text-align: center;
+}
+
+.logo {
+ font-size: 6em;
 }
